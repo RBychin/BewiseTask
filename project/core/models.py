@@ -29,5 +29,5 @@ class Question(models.Model):
         auto_now_add=True
     )
 
-    def __str__(self):
+    def __str__(self) -> str:
         return self.question_text[:40]
